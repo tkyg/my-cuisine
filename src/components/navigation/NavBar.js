@@ -1,10 +1,15 @@
 import React from 'react'
-import { NavLink } from "react-router-dom"
+import {NavLink} from "react-router-dom"
 
 const style = {
-  width: "60%",
+  width: "80%",
   margin: "5% 0 1%",
   padding: "1em",
+  textDecoration: "none",
+  color: "white",
+  backgroundColor: "#D8C4C0",
+  fontWeight: "bold",
+  verticalAlign: "center"
 }
 
 const NavBar = () => {
@@ -13,7 +18,7 @@ const NavBar = () => {
       <NavLink 
       activeStyle={{
         fontWeight: "bolder",
-        color: "red"
+        color: "#B6ACAC"
       }}
         exact
         style={style}
@@ -22,7 +27,7 @@ const NavBar = () => {
             <NavLink 
       activeStyle={{
         fontWeight: "bolder",
-        color: "red"
+        color: "#B6ACAC"
       }}
         exact
         style={style}
@@ -31,7 +36,7 @@ const NavBar = () => {
             <NavLink 
       activeStyle={{
         fontWeight: "bolder",
-        color: "red"
+        color: "#B6ACAC"
       }}
         exact
         style={style}
@@ -40,7 +45,7 @@ const NavBar = () => {
             <NavLink 
       activeStyle={{
         fontWeight: "bolder",
-        color: "red"
+        color: "#B6ACAC"
       }}
         exact
         style={style}
