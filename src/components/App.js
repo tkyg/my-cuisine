@@ -16,7 +16,7 @@ function App() {
     <div className="App">
       <Router>
         <NavBar />
-        <Header />
+        <Header appName="My Cuisine" slogan="Culture and Neighborhood"/>
         <Switch>
           <Route path="/restaurants/new">
             <RestaurantForm />
