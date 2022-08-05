@@ -11,7 +11,7 @@ const style = {
   backgroundColor: "#D8C4C0",
   fontWeight: "bold",
   verticalAlign: "center",
-  borderRadius: "10px"
+  borderRadius: "5px"
 }
 
 const NavBar = () => {
