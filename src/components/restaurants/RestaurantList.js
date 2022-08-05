@@ -4,6 +4,8 @@ import RestaurantCard from './RestaurantCard'
 
 const RestaurantList = ({ restaurants }) => {
 
+  const restaurantCards = restaurants.map(restaurant => <RestaurantCard />)
+
   return (
     <div>
       <RestaurantCard />
