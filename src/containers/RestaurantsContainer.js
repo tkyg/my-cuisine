@@ -15,7 +15,7 @@ const RestaurantsContainer = () => {
   return (
     <div>
       <RestaurantFilter />
-      <RestaurantList />
+      <RestaurantList restaurants={restaurants}/>
     </div>
   )
 }
