@@ -1,13 +1,16 @@
-import React from 'react'
-import RestaurantsContainer from '../../containers/RestaurantsContainer'
+import React from 'react';
+import "./Restaurant.css"
 
 const RestaurantCard = ({ restaurant }) => {
   return (
-    <div>
-      <h3>{restaurant.name}</h3>
-      <img src={restaurant.image} alt={restaurant.name} />
-      <h5>{restaurant.cuisine}</h5>
-      <a href={restaurant.link}>{`Click here To visit ${restaurant.name}`}</a>
+    <div className="card">
+      <div className="card__body">
+      <img className="card__image" src={restaurant.image} alt={restaurant.name} />
+      <h2 className="card__title">{restaurant.name}</h2>
+      <p className="card__description">Cuisine: {restaurant.cuisine}</p>
+      <p className="card__description">Borough: {restaurant.borough}</p>
+      <a className="card__link" href={restaurant.link}>Click here to visit: {restaurant.name}</a>
+    </div>
     </div>
   )
 }

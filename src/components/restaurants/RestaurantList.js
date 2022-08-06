@@ -8,7 +8,8 @@ const RestaurantList = ({ restaurants }) => {
 
   return (
     <div>
-      {restaurantCards}
+      <h2>Restaurants</h2>
+      <div style={{display: "flex", flexWrap: "wrap"}}>{restaurantCards}</div> 
     </div>
   )
 }

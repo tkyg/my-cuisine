@@ -1,3 +1,6 @@
-.App {
-  text-align: center;
+.App{
+  display: grid;
+  /* width: 900px; */
+  /* grid-template-columns: 200px minmax(100px, 400px); */
+  /* gap: 15px */
 }
