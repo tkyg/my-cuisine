@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 
-const RestaurantFilter = () => {
+const RestaurantFilter = ({ handleSearch }) => {
 
   const [ search, setSearch ] = useState("")
 
@@ -10,7 +10,12 @@ const RestaurantFilter = () => {
 
   return (
     <div>
-      <input type="text" placeholder="Type a cuisine name..." value={search} onChange={handleChange}/>
+      <input 
+        type="text" 
+        placeholder="Type a cuisine name..." 
+        value={search} 
+        onChange={handleChange}
+      />
     </div>
   )
 }

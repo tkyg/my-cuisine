@@ -12,9 +12,13 @@ const RestaurantsContainer = () => {
     .then(data => setRestaurants(data))
   }, [])
 
+  const handleSearch = () => {
+
+  }
+
   return (
     <div>
-      <RestaurantFilter />
+      <RestaurantFilter handleSearch={handleSearch}/>
       <RestaurantList restaurants={restaurants}/>
     </div>
   )
