@@ -10,7 +10,10 @@ const RestaurantsContainer = () => {
   useEffect(() => {
     fetch("http://localhost:3001/restaurants")
     .then(response => response.json())
-    .then(data => setRestaurants(data))
+    .then((data) => {
+      setRestaurants(data)
+      setFilteredRestaurants(data)
+      })
   }, [])
 
   const handleSearch = (searchValue) => {
@@ -21,7 +24,7 @@ const RestaurantsContainer = () => {
   return (
     <div>
       <RestaurantFilter handleSearch={handleSearch}/>
-      <RestaurantList restaurants={restaurants}/>
+      <RestaurantList restaurants={filteredRestaurants}/>
     </div>
   )
 }
