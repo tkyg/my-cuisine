@@ -14,7 +14,6 @@ const RestaurantsContainer = () => {
   }, [])
 
   const handleSearch = (searchValue) => {
-   console.log(searchValue)
    const filteredRestaurants = restaurants.filter(restaurant => restaurant.cuisine.toLowerCase().startsWith(searchValue.toLowerCase()))
    console.log(filteredRestaurants)
   }
