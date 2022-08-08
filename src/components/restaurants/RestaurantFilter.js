@@ -1,20 +1,13 @@
-import React, { useState } from 'react'
+import React from 'react'
 
 const RestaurantFilter = ({ handleSearch }) => {
-
-  const [ search, setSearch ] = useState("")
-
-  const handleChange = (e) => {
-    setSearch(e.target.value)
-  }
 
   return (
     <div>
       <input 
         type="text" 
         placeholder="Type a cuisine name..." 
-        value={search} 
-        onChange={handleChange}
+        onChange={(e) => handleSearch(e.target.value)}
       />
     </div>
   )
