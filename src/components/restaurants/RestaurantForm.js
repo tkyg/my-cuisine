@@ -1,27 +1,38 @@
 import React, { useState } from 'react'
 
-const RestaurantForm = () => {
+const RestaurantForm = ({ restaurants, setRestaurants }) => {
 
   const handleSubmit = e => {
     e.prevent.default()
 
+    setName
+
   }
   return (
     <div>
-      {/* <form onSubmit={handleSubmit}>
+      <form onSubmit={handleSubmit}>
+        <div>
         <label htmlFor="name">Name</label>
-        <input type="text" name="name" id="name" />
+        <input type="text" name="name" id="name" value={name} onChange={e => setName(e.target.value)}/>
+        </div> <br />
+        <div>
         <label htmlFor="cuisine">Cuisine</label>
-        <input type="text" name="cuisine" id="cuisineborough" />
+        <input type="text" name="cuisine" id="cuisineborough" value={cuisine} onChange={e => setCuisine(e.target.value)}/>
+        </div>
+        <div>
         <label htmlFor="borough">Borough</label>
-        <input type="text" name="borough" id="borough" />
+        <input type="text" name="borough" id="borough" value={borough} onChange={e => setBorough(e.target.value)}/>
+        </div> <br />
+        <div>
         <label htmlFor="image">Image</label>
-        <input type="text" name="image" id="image" />
+        <input type="text" name="image" id="image" value={image} onChange={e => setImage(e.target.value)}/>
+        </div> <br />
+        <div>
         <label htmlFor="link">Websitelink</label>
-        <input type="text" name="link" id="link" />
+        <input type="text" name="link" id="link" value={link} onChange={e => setLink(e.target.value)}/>
+        </div> <br />
         <input type="submit" value="Create" />
-      </form> */}
-      
+      </form>
     </div>
   )
 }
