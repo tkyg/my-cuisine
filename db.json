@@ -14,7 +14,7 @@
       "cuisine": "Chinese",
       "borough": "Queens",
       "image": "https://s3-media0.fl.yelpcdn.com/bphoto/jrjdLAml_qpS9m47Mz-Pug/348s.jpg",
-      "link": "http://www.asianjewelsny.com" 
+      "link": "http://www.asianjewelsny.com"
     },
     {
       "id": 3,
@@ -78,7 +78,7 @@
       "cuisine": "Thai",
       "borough": "Queens",
       "image": "https://nebula.wsimg.com/obj/ODZDODUwMzIyOTBBRjE1NDVGQzg6OWUwNjk4OTM4MmNjNGFkOGM2MDU3M2YzZjhkMmQwNTc=",
-      "link": "http://www.pyeboatnoodle.com" 
+      "link": "http://www.pyeboatnoodle.com"
     },
     {
       "id": 11,
@@ -94,7 +94,7 @@
       "cuisine": "Mexican",
       "borough": "Bronx",
       "image": "https://img1.wsimg.com/isteam/ip/a3227cfa-a5e6-486e-b617-c515f1b06f0c/2DE1236D-B9A2-487C-96BF-44B0B336CF91%202.JPG/:/rs=w:984",
-      "link": "https://taqueriatlaxcalli.com" 
+      "link": "https://taqueriatlaxcalli.com"
     },
     {
       "id": 13,
@@ -263,6 +263,14 @@
       "borough": "Staten Island",
       "image": "https://www.tnp.sg/sites/default/files/styles/rl680/public/articles/2020/06/25/NP_20200625_MAKAN25_5765737.jpg?itok=2-h8Y9Fe",
       "link": "https://www.lakruwanarestaurant.com"
+    },
+    {
+      "name": "Claro",
+      "cuisine": "Mexican",
+      "borough": "Brooklyn",
+      "image": "https://pyxis.nymag.com/v1/imgs/b27/887/e5fbc92986719cd25372f08e8337ffb423-claro-12.rsocial.w1200.jpg",
+      "link": "https://www.clarobk.com",
+      "id": 34
     }
   ]
 }

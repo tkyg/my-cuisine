@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 
-const RestaurantForm = ({ restaurants, setRestaurants }) => {
+const RestaurantForm = () => {
   const [name, setName] = useState("")
   const [cuisine, setCuisine] = useState("")
   const [borough, setBorough] = useState("")
@@ -8,18 +8,22 @@ const RestaurantForm = ({ restaurants, setRestaurants }) => {
   const [link, setLink] = useState("")
 
   const handleSubmit = e => {
-    e.prevent.default()
-    if([name, cuisine, borough, image, link].some(val =>val.trim() === "")) {
-      alert("Please fill out all the fields, thank you!")
+    e.preventDefault()
+    if([name, cuisine, borough, image, link].some
+      (val => val.trim() === "")) {
+        alert("Please fill out all the fields, thank you!")
+        return null
     }
 
-    setRestaurants([...restaurants, {name, cuisine, borough, image, link}])
-    setName("")
-    setCuisine("")
-    setBorough("")
-    setImage("")
-    setLink("")
-
+    const newRestaurant = {name, cuisine, borough, image, link} 
+    
+      fetch("http://localhost:3001/restaurants", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json"
+        },
+        body: JSON.stringify(newRestaurant)
+      })
   }
   return (
     <div>
