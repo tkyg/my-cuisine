@@ -9,8 +9,16 @@ const RestaurantForm = ({ restaurants, setRestaurants }) => {
 
   const handleSubmit = e => {
     e.prevent.default()
+    if([name, cuisine, borough, image, link].some(val =>val.trim() === "")) {
+      alert("Please fill out all the fields, thank you!")
+    }
 
-    setName
+    setRestaurants([...restaurants, {name, cuisine, borough, image, link}])
+    setName("")
+    setCuisine("")
+    setBorough("")
+    setImage("")
+    setLink("")
 
   }
   return (
@@ -23,7 +31,7 @@ const RestaurantForm = ({ restaurants, setRestaurants }) => {
         <div>
         <label htmlFor="cuisine">Cuisine</label>
         <input type="text" name="cuisine" id="cuisineborough" value={cuisine} onChange={e => setCuisine(e.target.value)}/>
-        </div>
+        </div> <br />
         <div>
         <label htmlFor="borough">Borough</label>
         <input type="text" name="borough" id="borough" value={borough} onChange={e => setBorough(e.target.value)}/>
