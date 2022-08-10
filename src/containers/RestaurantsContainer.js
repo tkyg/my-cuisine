@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react'
 import RestaurantFilter from "../components/restaurants/RestaurantFilter"
 import RestaurantList from "../components/restaurants/RestaurantList"
 
-
 const RestaurantsContainer = () => {
   const [restaurants, setRestaurants] = useState([])
   const [filteredRestaurants, setFilteredRestaurants] = useState(restaurants)
@@ -17,13 +16,14 @@ const RestaurantsContainer = () => {
   }, [])
 
   const handleSearch = (searchValue) => {
-   const filteredRestaurants = restaurants.filter(restaurant => restaurant.cuisine.toLowerCase().startsWith(searchValue.toLowerCase()))
-   setFilteredRestaurants(filteredRestaurants)
+   const filteredRestaurants = restaurants.filter(restaurant => 
+    restaurant.cuisine.toLowerCase().startsWith(searchValue.toLowerCase()))
+    setFilteredRestaurants(filteredRestaurants)
   }
 
   return (
     <div>
-      <RestaurantFilter handleSearch={handleSearch}/>
+      <RestaurantFilter handleSearch={handleSearch} />
       <RestaurantList restaurants={filteredRestaurants}/>
     </div>
   )

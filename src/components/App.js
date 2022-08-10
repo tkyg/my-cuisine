@@ -1,6 +1,6 @@
 
 import './App.css';
-import { BrowserRouter as Router, Switch, Route} from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 import RestaurantCard from "./restaurants/RestaurantCard";
 import RestaurantForm from "./restaurants/RestaurantForm";
 import RestaurantsContainer from "../containers/RestaurantsContainer";
@@ -14,33 +14,18 @@ import Home from "./Home"
 function App() {
   return (
     <div className="App">
-      <Router>
-        <NavBar />
-        <Header appName="My Cuisine" slogan="Culture and Neighborhood"/>
-        <Switch>
-          <Route path="/restaurants/new">
-            <RestaurantForm />
-          </Route>
-
-          <Route path="/restaurants/:id">
-            <RestaurantCard />
-          </Route>
-
-          <Route path="/restaurants">
-            <RestaurantsContainer />
-          </Route>
-
-          <Route path="/about">
-            <About />
-          </Route>
-
-          <Route path="/">
-            <Home />
-          </Route>
-
-        </Switch>
-      </Router>
+      <NavBar />
+      <Header slogan="Cuisine and Neighborhood" appName="My Cuisine" />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="new" element={<RestaurantForm />} />
+          <Route path=":id" element={<RestaurantCard />} />
+          <Route path="/restaurants" element={<RestaurantsContainer />} />
+          <Route index element={<Footer />} />
+        </Routes>
       <Footer />
+      
     </div>
   );
 }
