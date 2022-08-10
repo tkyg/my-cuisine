@@ -1,15 +1,17 @@
 import React from 'react';
-import { Div, Image } from "./CardStyle"
+import "./CardStyle.css"
 
 const RestaurantCard = ({ restaurant }) => {
   return (
-    <Div>
-      <Image src={restaurant.image} alt={restaurant.name} />
-      <h2>{restaurant.name}</h2>
-      <p>Cuisine: {restaurant.cuisine}</p>
-      <p>Borough: {restaurant.borough}</p>
-      <a href={restaurant.link}>Click here to visit: {restaurant.name}</a>
-    </Div>
+    <div className="card">
+      <div className="card__body">
+      <img className="card__image" src={restaurant.image} alt={restaurant.name} />
+      <h2 className="card__title">{restaurant.name}</h2>
+      <p className="card__description">Cuisine: {restaurant.cuisine}</p>
+      <p className="card__description">Borough: {restaurant.borough}</p>
+      <a className="card__link" href={restaurant.link}>Click here to visit: {restaurant.name}</a>
+    </div>
+    </div>
   )
 }
 
