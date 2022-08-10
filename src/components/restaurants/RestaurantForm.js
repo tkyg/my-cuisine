@@ -1,6 +1,11 @@
 import React, { useState } from 'react'
 
 const RestaurantForm = ({ restaurants, setRestaurants }) => {
+  const [name, setName] = useState("")
+  const [cuisine, setCuisine] = useState("")
+  const [borough, setBorough] = useState("")
+  const [image, setImage] = useState("")
+  const [link, setLink] = useState("")
 
   const handleSubmit = e => {
     e.prevent.default()
