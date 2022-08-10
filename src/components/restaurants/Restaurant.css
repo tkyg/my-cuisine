@@ -85,13 +85,14 @@ body{
 .hover
   transform:scale
 */
+
 .card{
   display:flex;
   overflow:hidden;
   box-shadow:0 2px 20px var(--clr-gray200);
-  border-radius:0.2rem;
+  border-radius: 0.2rem;
   flex-direction:column;
-  justify-content:space-between;
+  justify-content:space-around;
   border:"solid";
   margin:auto
 }

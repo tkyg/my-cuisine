@@ -1,5 +1,3 @@
-
-import './App.css';
 import { Routes, Route } from 'react-router-dom';
 import RestaurantCard from "./restaurants/RestaurantCard";
 import RestaurantForm from "./restaurants/RestaurantForm";
@@ -13,7 +11,7 @@ import Home from "./Home"
 
 function App() {
   return (
-    <div className="App">
+    <div>
       <NavBar />
       <Header slogan="Cuisine and Neighborhood" appName="My Cuisine" />
         <Routes>

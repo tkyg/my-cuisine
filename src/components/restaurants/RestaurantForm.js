@@ -1,5 +1,6 @@
 import { useNavigate } from 'react-router-dom'
 import React, { useState } from 'react'
+import { Input, Form, InputCreate } from "./FormStyle"
 
 const RestaurantForm = () => {
   const navigate = useNavigate()
@@ -36,29 +37,29 @@ const RestaurantForm = () => {
   }
   return (
     <div>
-      <form onSubmit={handleSubmit}>
+      <Form onSubmit={handleSubmit}>
         <div>
-        <label htmlFor="name">Name</label>
-        <input type="text" name="name" id="name" value={name} onChange={e => setName(e.target.value)}/>
+        <label htmlFor="name">Name: </label>
+        <Input type="text" name="name" id="name" value={name} onChange={e => setName(e.target.value)}/>
         </div> <br />
         <div>
-        <label htmlFor="cuisine">Cuisine</label>
-        <input type="text" name="cuisine" id="cuisineborough" value={cuisine} onChange={e => setCuisine(e.target.value)}/>
+        <label htmlFor="cuisine">Cuisine: </label>
+        <Input type="text" name="cuisine" id="cuisineborough" value={cuisine} onChange={e => setCuisine(e.target.value)}/>
         </div> <br />
         <div>
-        <label htmlFor="borough">Borough</label>
-        <input type="text" name="borough" id="borough" value={borough} onChange={e => setBorough(e.target.value)}/>
+        <label htmlFor="borough">Borough: </label>
+        <Input type="text" name="borough" id="borough" value={borough} onChange={e => setBorough(e.target.value)}/>
         </div> <br />
         <div>
-        <label htmlFor="image">Image</label>
-        <input type="text" name="image" id="image" value={image} onChange={e => setImage(e.target.value)}/>
+        <label htmlFor="image">Image: </label>
+        <Input type="text" name="image" id="image" value={image} onChange={e => setImage(e.target.value)}/>
         </div> <br />
         <div>
-        <label htmlFor="link">Websitelink</label>
-        <input type="text" name="link" id="link" value={link} onChange={e => setLink(e.target.value)}/>
+        <label htmlFor="link">Websitelink: </label>
+        <Input type="text" name="link" id="link" value={link} onChange={e => setLink(e.target.value)}/>
         </div> <br />
-        <input type="submit" value="Create" />
-      </form>
+        <InputCreate type="submit" value="Create" />
+      </Form>
     </div>
   )
 }
