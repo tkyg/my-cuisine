@@ -9,15 +9,18 @@ export const Input = styled.input`
   border: 2px solid #eee;
   box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
   border-radius: 10px;
+  align-items: center;
 `
 
 export const InputCreate = styled.input`
   box-sizing: border-box;
   padding: 10px;
   border-radius: .5rem;
-  width: 150px;
+  width: 10%;
+  align-items: center;
   &:hover {
     background-color: #D8C4C0;
+
   }
 `
 export const Form = styled.form`

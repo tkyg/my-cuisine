@@ -11,7 +11,4 @@ export const StyledLink = styled(NavLink)`
   font-weight: bold;
   vertical-align: center;
   border-radius: 5px;
-  &:hover {
-    background: #a69e9d
-  }
 `;

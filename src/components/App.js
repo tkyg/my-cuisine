@@ -11,7 +11,7 @@ import Home from "./Home"
 
 function App() {
   return (
-    <div>
+    <div style={{ textAlign: "center" }}>
       <NavBar />
       <Header slogan="Cuisine and Neighborhood" appName="My Cuisine" />
         <Routes>

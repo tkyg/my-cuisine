@@ -58,7 +58,7 @@ const RestaurantForm = () => {
         <label htmlFor="link">Websitelink: </label>
         <Input type="text" name="link" id="link" value={link} onChange={e => setLink(e.target.value)}/>
         </div> <br />
-        <InputCreate type="submit" value="Create" />
+        <div><InputCreate type="submit" value="Create" /></div>
       </Form>
     </div>
   )
