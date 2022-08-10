@@ -1,6 +1,8 @@
+import { useNavigate } from 'react-router-dom'
 import React, { useState } from 'react'
 
 const RestaurantForm = () => {
+  const navigate = useNavigate()
   const [name, setName] = useState("")
   const [cuisine, setCuisine] = useState("")
   const [borough, setBorough] = useState("")
@@ -16,7 +18,7 @@ const RestaurantForm = () => {
     }
 
     const newRestaurant = {name, cuisine, borough, image, link} 
-    
+
       fetch("http://localhost:3001/restaurants", {
         method: "POST",
         headers: {
@@ -24,6 +26,13 @@ const RestaurantForm = () => {
         },
         body: JSON.stringify(newRestaurant)
       })
+
+      setName("")
+      setCuisine("")
+      setBorough("")
+      setImage("")
+      setLink("")
+      navigate("/restaurants")
   }
   return (
     <div>

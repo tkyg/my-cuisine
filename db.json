@@ -271,6 +271,14 @@
       "image": "https://pyxis.nymag.com/v1/imgs/b27/887/e5fbc92986719cd25372f08e8337ffb423-claro-12.rsocial.w1200.jpg",
       "link": "https://www.clarobk.com",
       "id": 34
+    },
+    {
+      "name": "The Freakin Rican",
+      "cuisine": "Puerto Rican",
+      "borough": "Queens",
+      "image": "https://img.cdn4dd.com/cdn-cgi/image/fit=contain,width=1200,height=672,format=auto/https://doordash-static.s3.amazonaws.com/media/store/header/c734237e-84c1-4542-8027-17bb1648b477.jpg",
+      "link": "https://thefreakinricanrestaurant.com",
+      "id": 35
     }
   ]
 }
