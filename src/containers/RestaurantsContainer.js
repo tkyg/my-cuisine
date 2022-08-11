@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
-import RestaurantFilter from "../Components/Restaurants/RestaurantFilter"
-import RestaurantList from "../Components/Restaurants/RestaurantList"
+import RestaurantFilter from "../components/restaurants/RestaurantFilter"
+import RestaurantList from "../components/restaurants/RestaurantList"
 
 const RestaurantsContainer = () => {
   const [restaurants, setRestaurants] = useState([])

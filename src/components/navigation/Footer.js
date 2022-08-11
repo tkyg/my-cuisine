@@ -1,14 +1,15 @@
 import React from 'react'
 import { SocialIcon } from 'react-social-icons';
+import "../../index.css"
 
 const Footer = () => {
   return (
     <div>
-      <div className="row" style={{display: "flex", height: "50px", marginBottom: "-50px"}}>
-        <div className="col-6" style={{width: "50%", float: "left"}}>
+      <div style={{display: "flex", height: "50px", marginBottom: "-50px"}}>
+        <div style={{ fontFamily: "Text Me One", width: "50%", float: "left"}}>
         <h5>My Cuisine</h5>
         </div>
-        <div className="col-6" style={{width: "50%", float: "right"}}></div>
+        <div style={{width: "50%", float: "right"}}></div>
           <SocialIcon url="https://twitter.com" style={{width: "1em", margin: ".2em", padding: ".2em"}} />
           <SocialIcon url="https://facebook.com" style={{width: "1em", margin: ".2em", padding: ".2em"}} />
           <SocialIcon url="https://instagram.com" style={{width: "1em", margin: ".2em", padding: ".2em"}} />

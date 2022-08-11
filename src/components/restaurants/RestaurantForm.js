@@ -1,6 +1,6 @@
 import { useNavigate } from 'react-router-dom'
 import React, { useState } from 'react'
-import { Input, Form, InputCreate } from "../../Styles.js/FormStyle"
+import { Input, Form, InputCreate } from "../../styles.js/FormStyle"
 
 const RestaurantForm = () => {
   const navigate = useNavigate()

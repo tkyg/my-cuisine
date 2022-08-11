@@ -13,18 +13,27 @@ export const Input = styled.input`
 `
 
 export const InputCreate = styled.input`
-  box-sizing: border-box;
-  padding: 10px;
-  border-radius: .5rem;
-  width: 10%;
+  border-radius: 10px;
+  border: none;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 10px 40px;
   align-items: center;
+  background-color: #fff;
+  color: #333;
+
   &:hover {
+    opacity: 0.9;
+    transform: scale(0.98);
     background-color: #D8C4C0;
   }
 `
 export const Form = styled.form`
   display: flex;
   flex-direction: column;
+  align-items: center;
 `
 
 export const Link = styled.a`

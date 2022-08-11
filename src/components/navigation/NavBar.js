@@ -1,14 +1,14 @@
 import React from 'react'
-import { StyledLink } from "../../Styles.js/StyledLink"
+import { StyledLink, DivLink } from "../../styles.js/StyledLink"
 
 function NavBar() {
   return (
-    <div>
+    <DivLink>
       <StyledLink to="/">Home</StyledLink>
       <StyledLink to="/restaurants">Restaurants</StyledLink>
       <StyledLink to="/new">Add New Restaurant</StyledLink>
       <StyledLink to="/about">About</StyledLink>
-    </div>
+    </DivLink>
   )
 }
 
