@@ -20,7 +20,6 @@ export const InputCreate = styled.input`
   align-items: center;
   &:hover {
     background-color: #D8C4C0;
-
   }
 `
 export const Form = styled.form`

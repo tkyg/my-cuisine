@@ -1,10 +1,10 @@
 import { Routes, Route } from 'react-router-dom';
-import RestaurantCard from "./restaurants/RestaurantCard";
-import RestaurantForm from "./restaurants/RestaurantForm";
-import RestaurantsContainer from "../containers/RestaurantsContainer";
-import NavBar from "./navigation/NavBar"
-import Header from "./navigation/Header"
-import Footer from "./navigation/Footer"
+import RestaurantCard from "./Restaurants/RestaurantCard";
+import RestaurantForm from "./Restaurants/RestaurantForm";
+import RestaurantsContainer from "../Containers/RestaurantsContainer";
+import NavBar from "./Navigation/NavBar"
+import Header from "./Navigation/Header"
+import Footer from "./Navigation/Footer"
 import About from "./About";
 import Home from "./Home"
 
@@ -20,7 +20,7 @@ function App() {
           <Route path="new" element={<RestaurantForm />} />
           <Route path=":id" element={<RestaurantCard />} />
           <Route path="/restaurants" element={<RestaurantsContainer />} />
-          <Route index element={<Footer />} />
+          {/* <Route index element={<Home />} /> */}
         </Routes>
       <Footer />
       

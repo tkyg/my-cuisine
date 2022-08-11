@@ -1,5 +1,5 @@
 import React from 'react';
-import { Div, Image } from "./CardStyle"
+import { Div, Image } from "../../Styles.js/CardStyle"
 
 const RestaurantCard = ({ restaurant }) => {
   return (

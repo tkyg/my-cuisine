@@ -1,5 +1,5 @@
 import React from 'react'
-import { StyledLink } from "./StyledLink"
+import { StyledLink } from "../../Styles.js/StyledLink"
 
 function NavBar() {
   return (
