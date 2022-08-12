@@ -36,5 +36,5 @@ export const Div1 = styled.div`
   margin: auto;
   padding: 40px;
   text-align: center;
-  font-family: "Caveat"
+  font-family: "'Caveat', sans-serif"
 `

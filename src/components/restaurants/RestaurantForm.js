@@ -6,19 +6,19 @@ const RestaurantForm = () => {
   const navigate = useNavigate()
   const [name, setName] = useState("")
   const [cuisine, setCuisine] = useState("")
-  const [borough, setBorough] = useState("")
+  const [neighborhood, setNeighborhood] = useState("")
   const [image, setImage] = useState("")
   const [link, setLink] = useState("")
 
   const handleSubmit = e => {
     e.preventDefault()
-    if([name, cuisine, borough, image, link].some
+    if([name, cuisine, neighborhood, image, link].some
       (val => val.trim() === "")) {
         alert("Please fill out all the fields, thank you!")
         return null
     }
 
-    const newRestaurant = {name, cuisine, borough, image, link} 
+    const newRestaurant = {name, cuisine, neighborhood, image, link} 
 
       fetch("http://localhost:3001/restaurants", {
         method: "POST",
@@ -30,7 +30,7 @@ const RestaurantForm = () => {
 
       setName("")
       setCuisine("")
-      setBorough("")
+      setNeighborhood("")
       setImage("")
       setLink("")
       navigate("/restaurants")
@@ -47,8 +47,8 @@ const RestaurantForm = () => {
         <Input type="text" name="cuisine" id="cuisineborough" value={cuisine} onChange={e => setCuisine(e.target.value)}/>
         </div> <br />
         <div>
-        <label htmlFor="borough">Borough: </label>
-        <Input type="text" name="borough" id="borough" value={borough} onChange={e => setBorough(e.target.value)}/>
+        <label htmlFor="neighborhood">Neighborhood: </label>
+        <Input type="text" name="neighborhood" id="neighborhood" value={neighborhood} onChange={e => setNeighborhood(e.target.value)}/>
         </div> <br />
         <div>
         <label htmlFor="image">Image: </label>

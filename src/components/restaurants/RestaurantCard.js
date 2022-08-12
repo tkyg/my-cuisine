@@ -7,7 +7,7 @@ const RestaurantCard = ({ restaurant }) => {
       <div>
         <h3>{restaurant.name}</h3>
         <p>Cuisine: {restaurant.cuisine}</p>
-        <p>Borough: {restaurant.borough}</p>
+        <p>Neighborhood: {restaurant.neighborhood}</p>
         <a href={restaurant.link}>Visit: {restaurant.name}</a>
       </div>
       <div>

@@ -7,11 +7,11 @@ export const StyledLink = styled(NavLink)`
   padding: 1em;
   text-decoration: none;
   color: white;
-  background-color: #D8C4C0;
+  background-color: #ccc3be;
   font-weight: bold;
   text-align: center;
   border-radius: 5px;
-  font-family: "Text Me One";
+  font-family: "Inter";
   font-size: larger;
 
   @media (max-width: ${({ theme }) => theme.mobile}) {
@@ -20,7 +20,7 @@ export const StyledLink = styled(NavLink)`
   &:hover {
     opacity: 0.9;
     transform: scale(0.98);
-    color: black;
+    color: #ccae68;
   }
 `;
 
