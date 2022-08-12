@@ -21,10 +21,12 @@ const RestaurantsContainer = () => {
     setFilteredRestaurants(filteredRestaurants)
   }
 
+
+
   return (
     <div>
       <RestaurantFilter handleSearch={handleSearch} />
-      <RestaurantList restaurants={filteredRestaurants}/>
+      <RestaurantList restaurants={filteredRestaurants} />
     </div>
   )
 }

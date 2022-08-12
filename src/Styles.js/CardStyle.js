@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const Div = styled.div`
    display: flex;
    text-align: center;
-   background-color: #fff;
+   background-color: #f7f6f5;
    border-radius: 15px;
    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
    margin: 10px 0;
@@ -17,9 +17,8 @@ export const Div = styled.div`
       object-fit: cover;
       padding: 5px;
       margin:.2rem;
-
    }
-   
+
    & > div {
       flex: 1;
    }
@@ -28,7 +27,6 @@ export const Div = styled.div`
       flex-direction: column;
    }
 `
-
 export const Div1 = styled.div`
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   max-width: 500px;
@@ -37,4 +35,21 @@ export const Div1 = styled.div`
   padding: 40px;
   text-align: center;
   font-family: "'Caveat', sans-serif"
+`
+
+export const Button = styled.button`
+border-radius: 10px;
+border:none;
+box-shadow: 0ch, 0, 20px rgba(0, 0, 0, 0.15);
+cursor: pointer;
+font-size: 12px;
+font-weight: 700;
+padding: 7px 20px;
+background-color: #f7f6f5;
+color: "#333";
+
+&:hover {
+   opacity: 0.9;
+   transform: scale(1.1);
+}
 `
