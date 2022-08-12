@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <div>
       <div style={{display: "flex", height: "50px", marginBottom: "-50px"}}>
-        <div style={{ fontFamily: "Text Me One", width: "50%", float: "left"}}>
+        <div style={{ "fontFamily": "Mukta", width: "50%", float: "left"}}>
         <h5>My Cuisine</h5>
         </div>
         <div style={{width: "50%", float: "right"}}></div>

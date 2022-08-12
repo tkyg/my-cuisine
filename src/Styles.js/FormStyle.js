@@ -10,6 +10,7 @@ export const Input = styled.input`
   box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
   border-radius: 10px;
   align-items: center;
+  font-family: 'Mukta';
 `
 
 export const InputCreate = styled.input`
@@ -23,6 +24,7 @@ export const InputCreate = styled.input`
   align-items: center;
   background-color: #fff;
   color: #333;
+  font-family: 'Mukta';
 
   &:hover {
     opacity: 0.9;

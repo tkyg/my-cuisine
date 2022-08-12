@@ -1,5 +1,6 @@
 import React, {useState} from 'react';
 import { Div, Button } from "../../styles.js/CardStyle"
+import "../../index.css"
 
 const RestaurantCard = ({ restaurant}) => {
   const [cuisineReview, setCuisineReview] = useState(restaurant.upvotes)
@@ -10,8 +11,8 @@ const RestaurantCard = ({ restaurant}) => {
 
   return (
     <Div>
-      <div>
-        <h3>{restaurant.name}</h3>
+      <div style={{fontFamily: "Mukta", fontSize: "16px", fontWeight: "900"}}>
+        <h3 style={{fontFamily: "Aboreto", fontSize: "30px", color: "#ccae68"}}>{restaurant.name}</h3>
         <p>Cuisine: {restaurant.cuisine}</p>
         <p>Neighborhood: {restaurant.neighborhood}</p>
         <a style={{color: "#808080"}} href={restaurant.link}>Visit: {restaurant.name}</a><br/>

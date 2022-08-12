@@ -1,12 +1,14 @@
 import styled from "styled-components";
 
+
 export const Div = styled.div`
    display: flex;
    text-align: center;
-   background-color: #f7f6f5;
+   background-color: #f3f3f3;
+   color: "#808080";
    border-radius: 15px;
    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
-   margin: 10px 0;
+   margin: 20px 0;
    padding: 20px;
    flex-direction: row-reverse;
 
@@ -34,22 +36,22 @@ export const Div1 = styled.div`
   margin: auto;
   padding: 40px;
   text-align: center;
-  font-family: "'Caveat', sans-serif"
+  font-size: 16px;
 `
 
 export const Button = styled.button`
-border-radius: 10px;
-border:none;
-box-shadow: 0ch, 0, 20px rgba(0, 0, 0, 0.15);
-cursor: pointer;
-font-size: 12px;
-font-weight: 700;
-padding: 7px 20px;
-background-color: #f7f6f5;
-color: "#333";
+   border-radius: 10px;
+   border:none;
+   box-shadow: 0ch, 0, 20px rgba(0, 0, 0, 0.15);
+   cursor: pointer;
+   font-size: 12px;
+   font-weight: 700;
+   padding: 7px 20px;
+   background-color: #f7f6f5;
+   color: "#333";
 
-&:hover {
-   opacity: 0.9;
-   transform: scale(1.1);
-}
-`
+   &:hover {
+      opacity: 0.9;
+      transform: scale(1.1);
+   }
+   `

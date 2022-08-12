@@ -1,6 +1,7 @@
 import { useNavigate } from 'react-router-dom'
 import React, { useState } from 'react'
 import { Input, Form, InputCreate } from "../../styles.js/FormStyle"
+import "../../index.css"
 
 const RestaurantForm = () => {
   const navigate = useNavigate()
@@ -36,7 +37,7 @@ const RestaurantForm = () => {
       navigate("/restaurants")
   }
   return (
-    <div>
+    <div style={{"fontFamily": "Mukta"}}>
       <Form onSubmit={handleSubmit}>
         <div>
         <label htmlFor="name">Name: </label>

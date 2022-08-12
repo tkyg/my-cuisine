@@ -5,9 +5,10 @@ New York City, arguably the greatest city in the world, and what makes it a metr
 
 This is why MyCuisine was built, to help foodies explore different cuisines, and find the best restaurant that serves the cuisine. And there is no one better to assist these epicures than you, the connoisseur of your cuisine. You know how the cuisine is supposed to taste, and you know which restaurant in your neighborhood, borough, or city serves it best. 
 
-So, navigate into Add New Restaurant, and promote the restaurant that serve your cuisine the best. Click on the like button if you find your favorite restaurant already posted. For those who want to explore, navigate to Restaurants page and look for the restaurant with the most likes, and if you know which cuisine you want to taste, search for it in, Type a cuisine name… bar. If you approve it click the like button to promote it. 
+So, navigate into Add New Restaurant, and promote the restaurant that serve your cuisine the best. Click on the like button if you find your favorite restaurant already posted. For those who want to explore, navigate to Restaurants page and look for the restaurant with the most likes, and if you know which cuisine you want to taste, search for it in, Type a cuisine name… bar. If you approve it, click the like button to promote it. 
 
 Here is how easily this single page application can be used. 
+![MyCuisine working app](https://media.giphy.com/media/U2vYjEGtNKzXUvV1d1/giphy.gif)
 
 ## Installation
 1. Fork and clone the repo
@@ -90,6 +91,15 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 ## Contributing
 
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+
+## Authors and Acknowledgment
+
+All images were imported from restaurant website where able, rest were copied from [Eater](https://www.eater.com), [The New York Times](https://www.nytimes.com/section/food), [Google Images] (https://images.google.com).
+
+Sincere thank you to [Madeline Stark] (https://github.com/Madeline-Stark) and [Enoch Griffith] (https://www.linkedin.com/in/enochgriffith), my cohort leads for their constant support and guidance. 
+
+Huge thank you to my [Flatiron Family](https://flatironschool.com/), students, instructors, and advisors for their guidance and help.
 
 ## License
 

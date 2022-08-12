@@ -8,9 +8,9 @@ const RestaurantList = ({ restaurants }) => {
   const restaurantCards = restaurants.map(restaurant => <RestaurantCard  key={restaurant.id} restaurant={restaurant} />)
 
   return (
-    <div style={{fontFamily: "Roboto" }}>
+    <div style={{fontFamily: "Aboreto", textAlign: "center" }}>
       <h2>Restaurants</h2>
-      <div style={{ fontFamily: "Roboto"}}>{restaurantCards}</div> 
+      <div>{restaurantCards}</div> 
     </div>
   )
 }
