@@ -10,6 +10,10 @@ So, navigate into Add New Restaurant, and promote the restaurant that serve your
 Here is how easily this single page application can be used. 
 ![MyCuisine working app](https://media.giphy.com/media/U2vYjEGtNKzXUvV1d1/giphy.gif)
 
+## Links
+
+To read my blog [Click Here](https://medium.com/@ttenkyong/styled-components-within-react-f460dd6d7e7c)
+
 ## Installation
 1. Fork and clone the repo
 2. Cd into the project and run npm install

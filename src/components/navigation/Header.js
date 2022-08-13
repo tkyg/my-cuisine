@@ -1,6 +1,6 @@
 import React from 'react'
-import { StyledHeader } from "../../styles.js/HeaderStyle"
-import { Container } from '../../styles.js/Container'
+import { StyledHeader } from "../../styles/HeaderStyle"
+import { Container } from '../../styles/Container'
 import "../../index.css"
 
 const Header = ({ appName, slogan }) => {

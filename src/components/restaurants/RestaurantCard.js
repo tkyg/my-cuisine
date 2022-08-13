@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import { Div, Button } from "../../styles.js/CardStyle"
+import { Div, Button } from "../../styles/CardStyle"
 import "../../index.css"
 
 const RestaurantCard = ({ restaurant}) => {

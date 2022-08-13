@@ -1,7 +1,7 @@
 import { Routes, Route } from 'react-router-dom';
-import { Container } from "../styles.js/Container"
+import { Container } from "../styles/Container"
 import { ThemeProvider } from 'styled-components';
-import GlobalStyles from '../styles.js/GlobalStyle';
+import GlobalStyles from '../styles/GlobalStyle';
 import RestaurantCard from "./restaurants/RestaurantCard";
 import RestaurantForm from "./restaurants/RestaurantForm";
 import RestaurantsContainer from "../containers/RestaurantsContainer";

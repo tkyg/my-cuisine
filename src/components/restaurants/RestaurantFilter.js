@@ -1,5 +1,5 @@
 import React from 'react'
-import { Input } from "../../styles.js/FormStyle"
+import { Input } from "../../styles/FormStyle"
 
 const RestaurantFilter = ({ handleSearch }) => {
   return (

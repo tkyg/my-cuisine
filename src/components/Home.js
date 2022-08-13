@@ -1,5 +1,5 @@
 import React from 'react'
-import { Div1 } from "../styles.js/CardStyle"
+import { Div1 } from "../styles/CardStyle"
 
 function Home() {
   return (
