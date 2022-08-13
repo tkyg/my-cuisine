@@ -101,7 +101,7 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 
 All images were imported from restaurant website where able, rest were copied from [Eater](https://www.eater.com), [The New York Times](https://www.nytimes.com/section/food), [Google Images](https://images.google.com).
 
-Sincere thank you to [Madeline Stark] (https://github.com/Madeline-Stark) and [Enoch Griffith] (https://www.linkedin.com/in/enochgriffith), my cohort leads for their constant support and guidance. 
+Sincere thank you to [Madeline Stark](https://github.com/Madeline-Stark) and [Enoch Griffith](https://www.linkedin.com/in/enochgriffith), my cohort leads for their constant support and guidance. 
 
 Huge thank you to my [Flatiron Family](https://flatironschool.com/), students, instructors, and advisors for their guidance and help.
 
