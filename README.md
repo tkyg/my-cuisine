@@ -99,7 +99,7 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 
 ## Authors and Acknowledgment
 
-All images were imported from restaurant website where able, rest were copied from [Eater](https://www.eater.com), [The New York Times](https://www.nytimes.com/section/food), [Google Images] (https://images.google.com).
+All images were imported from restaurant website where able, rest were copied from [Eater](https://www.eater.com), [The New York Times](https://www.nytimes.com/section/food), [Google Images](https://images.google.com).
 
 Sincere thank you to [Madeline Stark] (https://github.com/Madeline-Stark) and [Enoch Griffith] (https://www.linkedin.com/in/enochgriffith), my cohort leads for their constant support and guidance. 
 
