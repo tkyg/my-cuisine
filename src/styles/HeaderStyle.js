@@ -15,4 +15,7 @@ export const StyledHeader = styled.header`
   h5 {
     font-size: 15px;
   }
+  @media(max-width: ${({ theme }) => theme.mobile}) {
+      flex-direction: column;
+   }
 `

@@ -11,6 +11,9 @@ export const Input = styled.input`
   border-radius: 10px;
   align-items: center;
   font-family: 'Mukta';
+  @media(max-width: ${({ theme }) => theme.mobile}) {
+      flex-direction: column;
+   }
 `
 
 export const InputCreate = styled.input`
@@ -31,11 +34,17 @@ export const InputCreate = styled.input`
     transform: scale(0.98);
     background-color: #D8C4C0;
   }
+  @media(max-width: ${({ theme }) => theme.mobile}) {
+      flex-direction: column;
+   }
 `
 export const Form = styled.form`
   display: flex;
   flex-direction: column;
   align-items: center;
+  @media(max-width: ${({ theme }) => theme.mobile}) {
+      flex-direction: column;
+   }
 `
 
 export const Link = styled.a`
@@ -45,4 +54,7 @@ export const Link = styled.a`
   padding: 5px 10px;
   background: papayawhip;
   color: palevioletred;
+  @media(max-width: ${({ theme }) => theme.mobile}) {
+      flex-direction: column;
+   }
 `
