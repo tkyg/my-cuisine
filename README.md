@@ -1,9 +1,9 @@
 # **MY CUISINE**
-[MyCuisine](https://playful-creponne-10d59d.netlify.app/)
+[MyCuisine](https://my-cuisine.netlify.app/)
 ## Description
 New York City, arguably the greatest city in the world, and what makes it a metropolis is the neighborhood and the people that live in. Each proudly representing cultures from different corners of the world. One prominent representation of this myriad culture that exists here is the cuisine found in the neighborhoods, no wonder there are over 25,000 restaurants in this city. Each not only representing the people that live in the neighborhood, but also feeding them the cuisine that represents them. 
 
-This is why [MyCuisine](https://playful-creponne-10d59d.netlify.app/) was built, to help foodies explore different cuisines, and find the best restaurant that serves the cuisine. And there is no one better to assist these epicures than you, the connoisseur of your cuisine. You know how the cuisine is supposed to taste, and you know which restaurant in your neighborhood, borough, or city serves it best. 
+This is why [MyCuisine](https://my-cuisine.netlify.app/) was built, to help foodies explore different cuisines, and find the best restaurant that serves the cuisine. And there is no one better to assist these epicures than you, the connoisseur of your cuisine. You know how the cuisine is supposed to taste, and you know which restaurant in your neighborhood, borough, or city serves it best. 
 
 So, navigate into Add New Restaurant, and promote the restaurant that serve your cuisine the best. Click on the like button if you find your favorite restaurant already posted. For those who want to explore, navigate to Restaurants page and look for the restaurant with the most likes, and if you know which cuisine you want to taste, search for it in, Type a cuisine name… bar. If you approve it, click the like button to promote it. 
 
