@@ -17,7 +17,7 @@ const RestaurantCard = ({ restaurant}) => {
         <p>Neighborhood: {restaurant.neighborhood}</p>
         <a style={{color: "#808080"}} href={restaurant.link}>Visit: {restaurant.name}</a><br/>
         <Button onClick={handleLikes}> Likes 👍 : {cuisineReview}</Button>
-        </div>
+      </div>
       <div>
         <img src={restaurant.image} alt={restaurant.name} />
       </div>

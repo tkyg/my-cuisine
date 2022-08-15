@@ -22,23 +22,23 @@ const theme = {
 
 function App() {
   return (
-      <ThemeProvider theme = {theme}>
-        <>
-        <GlobalStyles />
-          <NavBar />
-          <Header slogan="Cuisine and Neighborhood" appName="My Cuisine" />
-          <Container>
-            <Routes>
-              <Route path="/" element={<Home />} />
-              <Route path="/about" element={<About />} />
-              <Route path="new" element={<RestaurantForm />} />
-              <Route path=":id" element={<RestaurantCard />} />
-              <Route path="/restaurants" element={<RestaurantsContainer />} />
-            </Routes>
-          </Container>
-          <Footer />
-        </>
-      </ThemeProvider>
+    <ThemeProvider theme = {theme}>
+      <>
+      <GlobalStyles />
+        <NavBar />
+        <Header slogan="Cuisine and Neighborhood" appName="My Cuisine" />
+        <Container>
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/about" element={<About />} />
+            <Route path="new" element={<RestaurantForm />} />
+            <Route path=":id" element={<RestaurantCard />} />
+            <Route path="/restaurants" element={<RestaurantsContainer />} />
+          </Routes>
+        </Container>
+        <Footer />
+      </>
+    </ThemeProvider>
   );
 }
 
