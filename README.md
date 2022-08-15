@@ -14,6 +14,8 @@ Here is how easily this single page application can be used.
 
 To read my blog [Click Here](https://medium.com/@ttenkyong/styled-components-within-react-f460dd6d7e7c)
 
+For a quick walkthrough of my single page application, and its available features [Click Here](https://youtu.be/sXF-a-gvEmo)
+
 ## Installation
 1. Fork and clone the repo
 2. Cd into the project and run npm install
