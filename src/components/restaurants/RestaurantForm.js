@@ -21,7 +21,7 @@ const RestaurantForm = () => {
 
     const newRestaurant = {name, cuisine, neighborhood, image, link} 
 
-      fetch("http://localhost:3001/restaurants", {
+      fetch("https://backend-my-cuisine.herokuapp.com/restaurants", {
         method: "POST",
         headers: {
           "Content-Type": "application/json"

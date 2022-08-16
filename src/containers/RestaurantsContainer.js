@@ -7,7 +7,7 @@ const RestaurantsContainer = () => {
   const [filteredRestaurants, setFilteredRestaurants] = useState(restaurants)
 
   useEffect(() => {
-    fetch("http://localhost:3001/restaurants")
+    fetch("https://backend-my-cuisine.herokuapp.com/restaurants")
     .then(response => response.json())
     .then((data) => {
       setRestaurants(data)
