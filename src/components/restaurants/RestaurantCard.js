@@ -19,7 +19,7 @@ const RestaurantCard = ({ restaurant}) => {
         <Button onClick={handleLikes}> Likes 👍 : {cuisineReview}</Button>
       </div>
       <div>
-        <img src={restaurant.image} alt={restaurant.name} />
+        <img loading="lazy" src={restaurant.image} alt={restaurant.name} />
       </div>
     </Div>
   )
