@@ -248,7 +248,7 @@
       "name": "Atomix",
       "cuisine": "Korean",
       "neighborhood": "Korean Town, Manhattan",
-      "image": "https://elitetraveler.com/wp-content/uploads/2020/07/0109_Atomix-22-1.jpg",
+      "image": "https://images.squarespace-cdn.com/content/v1/5ac3bec4aa49a18caab02bf4/1572662805371-X9JHJMJTIAFNS8TGI8YS/0813_SingleThread-14.jpg?format=2500w",
       "link": "https://www.atomixnyc.com",
       "upvotes": 92
     },
@@ -322,7 +322,15 @@
       "image": "https://d1ralsognjng37.cloudfront.net/ef8e98d5-2655-4fb0-98dd-a58b0a73f0b1.jpeg",
       "link": "https://www.santambroeus.com",
       "id": 36,
-      "upvotes": 92
+      "upvotes": 0
+    },
+    {
+      "name": "Testing",
+      "cuisine": "Japanese",
+      "neighborhood": "Tribeca, Manhattan",
+      "image": "https://elitetraveler.com/wp-content/uploads/sites/8/2020/07/0109_Atomix-22-1.jpg",
+      "link": "https://www.jungsik.com/",
+      "id": 37
     }
   ]
 }

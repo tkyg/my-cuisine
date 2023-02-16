@@ -3,38 +3,47 @@ import React, { useState } from 'react'
 import { Input, Form, InputCreate } from "../../styles/FormStyle"
 import "../../index.css"
 
-const RestaurantForm = () => {
+const RestaurantForm = ({ addNewRestaurant }) => {
   const navigate = useNavigate()
   const [name, setName] = useState("")
   const [cuisine, setCuisine] = useState("")
   const [neighborhood, setNeighborhood] = useState("")
   const [image, setImage] = useState("")
   const [link, setLink] = useState("")
+  // const [upvotes, setUpvotes] = useState("")
 
   const handleSubmit = e => {
     e.preventDefault()
-    if([name, cuisine, neighborhood, image, link].some
+    if([ name, cuisine, neighborhood, image, link].some
       (val => val.trim() === "")) {
         alert("Please fill out all the fields, thank you!")
         return null
     }
 
-    const newRestaurant = {name, cuisine, neighborhood, image, link} 
+    const newRestaurant = {
+      name,
+      cuisine,
+      neighborhood,
+      image,
+      link,
+    };
 
-      fetch("https://backend-my-cuisine.herokuapp.com/restaurants", {
-        method: "POST",
+    // fetch("https://backend-my-cuisine.herokuapp.com/restaurants", {
+    fetch("http://localhost:3001/restaurants", {
+    method: "POST",
         headers: {
           "Content-Type": "application/json"
         },
         body: JSON.stringify(newRestaurant)
       })
+      setName('');
+      setCuisine('');
+      setNeighborhood('');
+      setImage('');
+      setLink('');
 
-      setName("")
-      setCuisine("")
-      setNeighborhood("")
-      setImage("")
-      setLink("")
-      navigate("/restaurants")
+      addNewRestaurant(newRestaurant);
+      navigate("/restaurants");
   }
   return (
     <div style={{"fontFamily": "Mukta"}}>
