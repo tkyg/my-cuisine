@@ -28,8 +28,8 @@ const RestaurantForm = ({ addNewRestaurant }) => {
       link,
     };
 
-    // fetch("https://backend-my-cuisine.herokuapp.com/restaurants", {
-    fetch("http://localhost:3001/restaurants", {
+    fetch("https://backend-my-cuisine.herokuapp.com/restaurants", {
+    // fetch("http://localhost:3001/restaurants", {
     method: "POST",
         headers: {
           "Content-Type": "application/json"
