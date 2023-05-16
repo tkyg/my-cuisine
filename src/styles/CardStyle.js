@@ -31,7 +31,7 @@ export const Div = styled.div`
 export const Div1 = styled.div`
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   max-width: 500px;
-  max-height: 800px;
+  max-height: 900px;
   margin: auto;
   padding: 40px;
   text-align: center;

@@ -4,10 +4,10 @@ import { Div1 } from "../styles/CardStyle"
 function Home() {
   return (
     <Div1 style={{"fontFamily": "Mukta"}}>
-      <p>The goal of MyCuisine is to promote the cuisine that you grew up eating, the cuisine that now revives your nostalgia of the place you grew up, the cuisine you enjoyed with your family and friends, the cuisine that now represents you.</p>
-      <p>MyCuisine is for you to share that knowledge with others, because you are the ambassador. You know how the cuisine is supposed to taste, and you know which restaurant in your neighborhood, borough, or city serves it best.</p>
-      <p>So, visit the Add New Restaurant page, provide the information of your favorite restaurant, and promote your cuisine, and your neighborhood.</p>
-      <p>Through food, give them a taste of who you are!</p>
+      <p>Welcome to MyCuisine, your ultimate guide to discovering the most authentic dining experiences. We are dedicated to showcasing the best restaurants that serve cuisine true to its roots, ensuring you savor every bite with absolute delight.</p>
+      <p>At MyCuisine, we believe that you, as a passionate food enthusiast, hold the key to uncovering culinary gems. Your discerning taste buds and intimate knowledge of your neighborhood, borough, or city empower you to identify the restaurants that excel in delivering genuine flavors.</p>
+      <p>Through our platform, you can share your invaluable insights with fellow food lovers, helping them embark on unforgettable culinary journeys. Visit the Add New Restaurant page and effortlessly provide details about your favorite establishments, promoting the cherished cuisine that defines your community.</p>
+      <p>Join MyCuisine today and become part of a community dedicated to celebrating authenticity. Let your recommendations guide others in discovering the true essence of cuisine. Together, we will create a culinary map that celebrates the rich tapestry of flavors from around the world.</p>
     </Div1>
   )
 }

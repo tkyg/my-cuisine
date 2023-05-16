@@ -6,18 +6,25 @@ export const Input = styled.input`
   width: 250px;
   padding: 5px;
   font-size: 1rem;
-  border: 2px solid #eee;
+  border: 1px solid #eee;
   box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
-  border-radius: 10px;
+  border-radius: 7px;
   font-family: 'Mukta';
+  margin-bottom: 5px;
 
   @media(max-width: ${({ theme }) => theme.mobile}) {
       flex-direction: column;
    }
 `
 
+export const Label = styled.label`
+  display: block;
+  margin-bottom: 5px;
+  font-family: 'Mukta';
+`
+
 export const InputCreate = styled.input`
-  border-radius: 10px;
+  border-radius: 5px;
   border: none;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
   cursor: pointer;
@@ -39,6 +46,7 @@ export const Form = styled.form`
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
 
   @media(max-width: ${({ theme }) => theme.mobile}) {
       flex-direction: column;
@@ -52,4 +60,8 @@ export const Link = styled.a`
   padding: 5px 10px;
   background: papayawhip;
   color: palevioletred;
+`
+export const Div = styled.div`
+  display: flex;
+  align-items: center;
 `

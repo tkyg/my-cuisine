@@ -1,6 +1,6 @@
 import { useNavigate } from 'react-router-dom'
 import React, { useState } from 'react'
-import { Input, Form, InputCreate } from "../../styles/FormStyle"
+import { Input, Form, InputCreate, Label } from "../../styles/FormStyle"
 import "../../index.css"
 
 const RestaurantForm = ({ addNewRestaurant }) => {
@@ -49,25 +49,31 @@ const RestaurantForm = ({ addNewRestaurant }) => {
     <div style={{"fontFamily": "Mukta"}}>
       <Form onSubmit={handleSubmit}>
         <div>
-        <label htmlFor="name">Name: </label>
-        <Input type="text" name="name" id="name" value={name} onChange={e => setName(e.target.value)}/>
-        </div> <br />
+        <Label htmlFor="name">Name: </Label>
+        <Input 
+          type="text" 
+          name="name" 
+          id="name"
+          value={name} 
+          onChange={e => setName(e.target.value)}
+          />
+        </div>
         <div>
-        <label htmlFor="cuisine">Cuisine: </label>
+        <Label htmlFor="cuisine">Cuisine: </Label>
         <Input type="text" name="cuisine" id="cuisineborough" value={cuisine} onChange={e => setCuisine(e.target.value)}/>
-        </div> <br />
+        </div>
         <div>
-        <label htmlFor="neighborhood">Neighborhood: </label>
+        <Label htmlFor="neighborhood">Neighborhood: </Label>
         <Input type="text" name="neighborhood" id="neighborhood" value={neighborhood} onChange={e => setNeighborhood(e.target.value)}/>
-        </div> <br />
+        </div>
         <div>
-        <label htmlFor="image">Image: </label>
+        <Label htmlFor="image">Image: </Label>
         <Input type="text" name="image" id="image" value={image} onChange={e => setImage(e.target.value)}/>
-        </div> <br />
+        </div>
         <div>
-        <label htmlFor="link">Websitelink: </label>
+        <Label htmlFor="link">Websitelink: </Label>
         <Input type="text" name="link" id="link" value={link} onChange={e => setLink(e.target.value)}/>
-        </div> <br />
+        </div>
         <div><InputCreate type="submit" value="Promte" /></div>
       </Form>
     </div>
